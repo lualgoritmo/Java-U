@@ -20,7 +20,8 @@ public class Program {
 		product.price = sc.nextDouble();
 		System.out.print("Quantidade");
 		product.quantity = sc.nextInt();
-		
+		//System.out.print(product.toString());
+		System.out.print(product);
 		
 		sc.close();
 	}
