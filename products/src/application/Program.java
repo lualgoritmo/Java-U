@@ -21,8 +21,18 @@ public class Program {
 		System.out.print("Quantidade");
 		product.quantity = sc.nextInt();
 		//System.out.print(product.toString());
-		System.out.print(product);
+		System.out.println("Produtos " + product);
 		
+		System.out.print("Adicionar mais Produtos?");
+		int quantity = sc.nextInt();
+		product.addProducts(quantity);
+		System.out.println();
+		System.out.println("Produtos " + product);
+		
+		System.out.print("Remover Produtos");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
+		System.out.println("Remover Produtos " + product);
 		sc.close();
 	}
 
