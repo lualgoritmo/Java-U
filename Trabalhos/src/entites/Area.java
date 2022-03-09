@@ -14,7 +14,7 @@ public class Area {
 	}
 	
 	public double diagonal() {
-		return (width * width + heigth * heigth);
+		return Math.sqrt(width * width + heigth * heigth);
 	}
 	
 	public String toString() {
